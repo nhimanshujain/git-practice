@@ -1,0 +1,8 @@
+http://www.gitalias.com/
+https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
+
+
+https://coderwall.com/p/_-ypzq/git-bash-fixing-it-with-alias-and-functions
+https://mjk.space/git-aliases-i-cant-live-without/
+https://victorzhou.com/blog/git-aliases/
+https://git.wiki.kernel.org/index.php/Aliases
