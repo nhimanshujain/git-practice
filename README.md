@@ -1,5 +1,5 @@
 # git-practice
 
-Refrences:
-https://github.com/grayghostvisuals/practice-git
+Refrences: <br>
+https://github.com/grayghostvisuals/practice-git <br>
 https://github.com/praqma-training/git-katas
