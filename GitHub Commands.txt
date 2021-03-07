@@ -1,0 +1,110 @@
+Frequently Used Commands:
+git status
+git add .
+git commit -m "Commit Message"
+git push origin master
+git pull
+git pull upstream master
+git clone "link"
+git remote -v
+git remote add origin https://github.com/himanshujain171/haiku.git
+git remote add upstream "https://github.com/rahulmakhija30/brevis.git"
+git log
+git reset --hard b361e7565d92a622fe66121a6e0856b00bbb2e76
+git branch -l
+.gitconfig path -> C:\Users\HIMANSHU JAIN
+
+git pull upstream Version-2.0
+git checkout Version-2.0
+git push origin Version-2.0
+git push origin Version-2.0 --force
+
+git checkout -b API-FEATURE Version-2.0
+git push -u origin API-FEATURE
+git push upstream API-FEATURE
+
+In API-FEATURE
+git add .
+git commit –m "Some commit message"
+git checkout Version-2.0		# Switched to branch 'Version-2.0'
+git merge API-FEATURE
+git push origin Version-2.0
+git push upstream Version-2.0
+
+In Version-2.0
+git merge -s ours master
+git checkout master
+git merge Version-2.0
+
+Delete API_FEATURE(In Master)
+git branch -d API-FEATURE
+git push origin --delete API-FEATURE
+
+
+git checkout -b feature
+git push -u origin feature
+---------------------------------------------------------------
+
+
+git config --list
+git config --global user.name "username"
+git config --global user.email "email"
+
+git init -> Initialzation  contain .git folder 
+git status - default master branch
+git add test.txt - staging area - file 
+
+commit - ctrl S
+git commit -m "commit msg"
+
+git log - commits
+
+use commit id to go back to that commit
+
+git add . - Add all files
+
+git remote -v - Origin is set
+
+origin
+git remote add origin "link"
+
+git push origin master - New commits to the master branch of origin
+
+git status
+
+Pull - Working tree clean
+
+notepad trail.c // Set default as vs code
+
+notepad .gitignore - Testing files, not relation with project, can be obtained from .c - .out file
+
+*.out - Every file with .out is ignores
+
+git branch - Name of branches
+
+git branch name
+
+git checkout version_2
+
+New file - conflict.txt
+git checkout master
+
+git merge version_2
+
+creating conflict
+same file in master and version_2
+
+vs codium
+
+git clone "link"
+
+upstream = folk - clone
+Tell git whos repo it is
+
+git remote add upstream "link"
+
+rahulmakhija30 
+
+git pull upstream master
+
+git stash - Return to previous commit
