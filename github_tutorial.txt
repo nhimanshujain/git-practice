@@ -10,8 +10,19 @@ git remote -v
 git remote add upstream "https://github.com/rahulmakhija30/brevis.git"
 git log
 git reset --hard b361e7565d92a622fe66121a6e0856b00bbb2e76
+git remote add origin https://github.com/himanshujain171/DeepSarc.git
+git add . ; git commit -m "Sem6"
 ---------------------------------------------------------------
+git config --list --show-origin => Location of global gitconfig file
+(C:/Users/HIMANSHU JAIN/.gitconfig)
 
+We add alias to .gitconfig file (Global)
+git config --global alias.co checkout
+---------------------------------------------------------------
+gci -r|sort -descending -property length | select name, @{Name="Megabytes";Expression={[Math]::round($_.length / 1MB, 2)}}
+gci -r|sort -descending -property length | select -first 10 name, @{Name="Megabytes";Expression={[Math]::round($_.length / 1MB, 2)}}
+
+----------------------------------------------------------------
 
 git config --list
 git config --global user.name "username"
