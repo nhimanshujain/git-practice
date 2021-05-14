@@ -16,6 +16,11 @@ git branch -l
 git add . ; git commit -m "Sem6"
 
 ---------------------------------------------------------------------------------
+merge changes done in master to feature-branch
+git checkout feature-branch
+git merge master   (Update locally)
+git push origin feature-branch
+
 git pull upstream Version-2.0
 git checkout Version-2.0
 git push origin Version-2.0
@@ -73,6 +78,7 @@ git checkout version_2
 git merge version_2
 git stash - Return to previous commit
 
+When checkout locally -> All local file of that branch is seen
 ---------------------------------------------------------------
 To get the size of the files
 
