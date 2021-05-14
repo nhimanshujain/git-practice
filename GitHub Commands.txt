@@ -3,6 +3,7 @@ git clone "link"
 git remote -v
 git remote add origin https://github.com/himanshujain171/haiku.git
 git remote add upstream "https://github.com/rahulmakhija30/brevis.git"  (upstream = folk + clone)
+git remote remove upstream
 git status
 git add .
 git commit -m "Commit Message"
