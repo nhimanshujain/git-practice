@@ -21,6 +21,7 @@ git checkout feature-branch
 git merge master   (Update locally)
 git push origin feature-branch
 
+---------------------------------------------------------------------------------
 git pull upstream Version-2.0
 git checkout Version-2.0
 git push origin Version-2.0
