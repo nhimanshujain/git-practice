@@ -1,19 +1,20 @@
 Frequently Used Commands:
+git clone "link"
+git remote -v
+git remote add origin https://github.com/himanshujain171/haiku.git
+git remote add upstream "https://github.com/rahulmakhija30/brevis.git"  (upstream = folk + clone)
 git status
 git add .
 git commit -m "Commit Message"
 git push origin master
 git pull
 git pull upstream master
-git clone "link"
-git remote -v
-git remote add origin https://github.com/himanshujain171/haiku.git
-git remote add upstream "https://github.com/rahulmakhija30/brevis.git"
 git log
 git reset --hard b361e7565d92a622fe66121a6e0856b00bbb2e76
 git branch -l
-.gitconfig path -> C:\Users\HIMANSHU JAIN
+git add . ; git commit -m "Sem6"
 
+---------------------------------------------------------------------------------
 git pull upstream Version-2.0
 git checkout Version-2.0
 git push origin Version-2.0
@@ -40,39 +41,25 @@ Delete API_FEATURE(In Master)
 git branch -d API-FEATURE
 git push origin --delete API-FEATURE
 
-
 git checkout -b feature
 git push -u origin feature
----------------------------------------------------------------
+---------------------------------------------------------------------------------
 
+git config --list --show-origin => Location of global gitconfig file
+(C:/Users/HIMANSHU JAIN/.gitconfig)
 
 git config --list
 git config --global user.name "username"
 git config --global user.email "email"
 
-git init -> Initialzation  contain .git folder 
-git status - default master branch
-git add test.txt - staging area - file 
+We add alias to .gitconfig file (Global)
+git config --global alias.co checkout    (checkout = co)
 
-commit - ctrl S
-git commit -m "commit msg"
+git init -> Initialzation  contain .git folder 
+git add test.txt -> staging area
+git commit -m "commit msg" -> commit - ctrl S
 
 git log - commits
-
-use commit id to go back to that commit
-
-git add . - Add all files
-
-git remote -v - Origin is set
-
-origin
-git remote add origin "link"
-
-git push origin master - New commits to the master branch of origin
-
-git status
-
-Pull - Working tree clean
 
 notepad trail.c // Set default as vs code
 
@@ -80,31 +67,14 @@ notepad .gitignore - Testing files, not relation with project, can be obtained f
 
 *.out - Every file with .out is ignores
 
-git branch - Name of branches
-
 git branch name
-
 git checkout version_2
-
-New file - conflict.txt
-git checkout master
-
 git merge version_2
-
-creating conflict
-same file in master and version_2
-
-vs codium
-
-git clone "link"
-
-upstream = folk - clone
-Tell git whos repo it is
-
-git remote add upstream "link"
-
-rahulmakhija30 
-
-git pull upstream master
-
 git stash - Return to previous commit
+
+---------------------------------------------------------------
+To get the size of the files
+
+gci -r|sort -descending -property length | select name, @{Name="Megabytes";Expression={[Math]::round($_.length / 1MB, 2)}}
+gci -r|sort -descending -property length | select -first 10 name, @{Name="Megabytes";Expression={[Math]::round($_.length / 1MB, 2)}}
+----------------------------------------------------------------

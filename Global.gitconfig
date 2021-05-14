@@ -1,0 +1,15 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Himanshu Jain
+	email = nhimanshujain@gmail.com
+[core]
+	editor = \"C:\\Users\\HIMANSHU JAIN\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+[winUpdater]
+	recentlySeenVersion = 2.24.1.windows.2
+[alias]
+	co = checkout
+	st = status
