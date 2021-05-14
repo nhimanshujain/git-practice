@@ -18,7 +18,9 @@ git branch -l  (List the branches)
 git branch -d localBranchName (Delete local branch)
 git push origin --delete remoteBranchName (Delete remote branch)
 
-git diff
+git diff commit1/branch1 commit2/branch2 filename
+git diff c9ef03b575d7a4da317deb52307770735b058549  a2e220876884cbd2af47ea434dd2bd34d8f3a729 '.\GitHub Commands.txt'
+git diff origin/master origin/upstream-branch '.\GitHub Commands.txt'
 ---------------------------------------------------------------------------------
 merge changes done in master to feature-branch
 git checkout feature-branch
