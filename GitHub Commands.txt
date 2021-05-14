@@ -17,6 +17,8 @@ git add . ; git commit -m "Sem6"
 git branch -l  (List the branches)
 git branch -d localBranchName (Delete local branch)
 git push origin --delete remoteBranchName (Delete remote branch)
+
+git diff
 ---------------------------------------------------------------------------------
 merge changes done in master to feature-branch
 git checkout feature-branch
