@@ -29,11 +29,6 @@ git push origin feature-branch
 
 ---------------------------------------------------------------------------------
 git lfs --h
-git lfs install
-git lfs track "*.h5"
-git add .gitattributes
-git lfs track
-
 ---------------------------------------------------------------------------------
 git pull upstream Version-2.0
 git checkout Version-2.0
