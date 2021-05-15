@@ -11,7 +11,7 @@ git push origin master
 git pull
 git pull upstream master
 git log
-git reset --hard b361e7565d92a622fe66121a6e0856b00bbb2e76
+git reset --hard b361e7565d92a622fe66121a6e0856b00bbb2e76 (Reset to previous commit)
 git add . ; git commit -m "Sem6"
 
 git branch -l  (List the branches)
