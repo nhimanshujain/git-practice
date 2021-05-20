@@ -30,6 +30,14 @@ git push origin feature-branch
 ---------------------------------------------------------------------------------
 git lfs --h
 ---------------------------------------------------------------------------------
+Use SSH
+ssh-keygen
+cat "C:/Some_Path/id_rsa.pub"
+Create SSH Key in Github
+git remote set-url origin git@github.com:nhimanshujain/PESU-StudyMaterial.git
+git branch --set-upstream-to=origin/main main
+git remote -v
+---------------------------------------------------------------------------------
 git pull upstream Version-2.0
 git checkout Version-2.0
 git push origin Version-2.0
